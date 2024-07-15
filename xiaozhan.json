@@ -48,7 +48,24 @@
             "分类url": "https://www.xsmp3.com/{cateId}/{catePg}.html;;av",
             "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
         }
-    }, {
+    },{
+      "key": "C影院",
+      "name": "💕C影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+       "jar":
+"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "简介": "<p class=\"col-pd\">&&</p>",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "分类url": "https://www.c-tv6.cc/video/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}/",
+        "分类": "电影&连续剧&综艺&动漫&爽文短剧&伦理片",
+        "分类值": "dianying&lianxuju&zongyi&dongman&shuangwenduanju&lunlipian"
+      }
+}, {
         "key": "新感觉",
         "name": "新感觉┃TV4K",
         "type": 1,
