@@ -1,20 +1,17 @@
 {
     "wallpaper": "",
     "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/benteng4/xiaozhan/main/CustomSpider.jar",
- 
-    "sites": [
-{
-                "key": "XBPQ_JQQZX",
-                "name": "剧圈在线┃XBPQ",
-                "type": 3,
-                "api": "csp_XBPQ",
-                "jar":
-"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-                "ext": {
-                        "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman#纪录片$jilupian#爽剧$shuangju",
-                        "分类url":"https://www.jqqzx.cc/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html"}
-        },
-{
+    "sites": [{
+        "key": "XBPQ_JQQZX",
+        "name": "剧圈在线┃XBPQ",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman#纪录片$jilupian#爽剧$shuangju",
+            "分类url": "https://www.jqqzx.cc/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html"
+        }
+    }, {
         "key": "XBPQ_XSmp3",
         "name": "随身相声┃XBPQ",
         "type": 3,
@@ -48,69 +45,85 @@
             "分类url": "https://www.xsmp3.com/{cateId}/{catePg}.html;;av",
             "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
         }
-    },{
-      "key": "C影院",
-      "name": "💕C影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-       "jar":
-"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "<p class=\"col-pd\">&&</p>",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "https://www.c-tv6.cc/video/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}/",
-        "分类": "电影&连续剧&综艺&动漫&爽文短剧&伦理片",
-        "分类值": "dianying&lianxuju&zongyi&dongman&shuangwenduanju&lunlipian"
-      }
-},
-        { "key": "可可观影", "name": "可可观影", "type":3,"api":"csp_XBPQ", "jar":"XBPQ.jar", "ext": {"简介":"小林子为您剧情介绍:+style=\"display: none;\"&&</span>","数组":"<li>&&</li>","副标题":"pic-text text-right\">&&</span>","线路数组":"#playlist&&</a>","搜索数组":"col-md-6 col-sm-4 col-xs-3\">&&</li>","分类url":"http://www.kmxibanyayu.com/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"短剧$duanju#国产剧$guochanju#电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#解说$dianyingjieshuo"}},
-        {
+    }, {
+        "key": "C影院",
+        "name": "💕C影院",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "简介": "<p class=\"col-pd\">&&</p>",
+            "跳转播放链接": "var player_*\"url\":\"&&\"",
+            "分类url": "https://www.c-tv6.cc/video/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}/",
+            "分类": "电影&连续剧&综艺&动漫&爽文短剧&伦理片",
+            "分类值": "dianying&lianxuju&zongyi&dongman&shuangwenduanju&lunlipian"
+        }
+    }, {
+        "key": "可可观影",
+        "name": "可可观影",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "XBPQ.jar",
+        "ext": {
+            "简介": "小林子为您剧情介绍:+style=\"display: none;\"&&</span>",
+            "数组": "<li>&&</li>",
+            "副标题": "pic-text text-right\">&&</span>",
+            "线路数组": "#playlist&&</a>",
+            "搜索数组": "col-md-6 col-sm-4 col-xs-3\">&&</li>",
+            "分类url": "http://www.kmxibanyayu.com/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类": "短剧$duanju#国产剧$guochanju#电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#解说$dianyingjieshuo"
+        }
+    }, {
         "name": "新感觉┃TV4K",
         "type": 1,
         "api": "http://27.54.236.201/api.php/provide/vod/",
         "searchable": 1,
         "quickSearch": 1,
         "categories": ["连续剧", "电影", "综艺", "动漫", "体育", "少儿", "音乐", "直播", "解说", "短剧"]
-    },{
-            "key": "纤纤影视",
-            "name": "纤纤 | 2K",
-            "type": 3,"style":{ "type":"rect", "ratio":1.485 },
-            "api": "csp_XBPQ",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-      "changeable": 1,
-            "ext": {
-                "主页url": "https://m.xian372.top/",
-                "请求头": "手机",
-                "编码": "gb2312",
-                "数组": "<a class=\"ui-pic&&</a",
-                "图片": "src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "ui-type\">&&</span>",
-                "链接": "href=\"&&\"",
-                "简介": "description\"><p>&&</p",
-                "线路数组": "class=\"intro\">&&</h1",
-                "线路标题": "PYLB专享+<h1>飘逸线路<",
-                "播放数组": "<div class=\"playlist&&</div",
-                "播放列表": "<li>&&</li",
-                "播放标题": ">&&</a",
-                "播放链接": "href='&&'",
-                "搜索数组": "<a class=\"ui-pic&&</a",
-                "搜索图片": "src=\"&&\"",
-                "搜索标题": "title=\"&&\"",
-                "搜索链接": "href=\"&&\"",
-                "搜索url": "https://m.xian372.top/search.asp?page={pg}&searchword={wd}&searchtype=-1",
-                "分类数组": "<a&&</a",
-                "分类标题": ".html\">&&</a[不包含:视频二#综艺娱乐]",
-                "分类ID": "href=\"/L/&&.html\"",
-                "分类url": "https://m.xian372.top/L/{cateId}_{catePg}.html[https://m.xian372.top/L/{cateId}.html]"
-            }
-        }, {
+    }, {
+        "key": "纤纤影视",
+        "name": "纤纤 | 2K",
+        "type": 3,
+        "style": {
+            "type": "rect",
+            "ratio": 1.485
+        },
+        "api": "csp_XBPQ",
+        "playerType": 2,
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "changeable": 1,
+        "ext": {
+            "主页url": "https://m.xian372.top/",
+            "请求头": "手机",
+            "编码": "gb2312",
+            "数组": "<a class=\"ui-pic&&</a",
+            "图片": "src=\"&&\"",
+            "标题": "title=\"&&\"",
+            "副标题": "ui-type\">&&</span>",
+            "链接": "href=\"&&\"",
+            "简介": "description\"><p>&&</p",
+            "线路数组": "class=\"intro\">&&</h1",
+            "线路标题": "PYLB专享+<h1>飘逸线路<",
+            "播放数组": "<div class=\"playlist&&</div",
+            "播放列表": "<li>&&</li",
+            "播放标题": ">&&</a",
+            "播放链接": "href='&&'",
+            "搜索数组": "<a class=\"ui-pic&&</a",
+            "搜索图片": "src=\"&&\"",
+            "搜索标题": "title=\"&&\"",
+            "搜索链接": "href=\"&&\"",
+            "搜索url": "https://m.xian372.top/search.asp?page={pg}&searchword={wd}&searchtype=-1",
+            "分类数组": "<a&&</a",
+            "分类标题": ".html\">&&</a[不包含:视频二#综艺娱乐]",
+            "分类ID": "href=\"/L/&&.html\"",
+            "分类url": "https://m.xian372.top/L/{cateId}_{catePg}.html[https://m.xian372.top/L/{cateId}.html]"
+        }
+    }, {
         "key": "XBPQ_PSmp3",
         "name": "随身评书┃XBPQ",
         "type": 3,
