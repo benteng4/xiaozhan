@@ -65,8 +65,7 @@
         "分类": "电影&连续剧&综艺&动漫&爽文短剧&伦理片",
         "分类值": "dianying&lianxuju&zongyi&dongman&shuangwenduanju&lunlipian"
       }
-}, { "key": "可可观影", "name": "可可观影", "type":3,"api":"csp_XBPQ", "ext": {"简介":"小林子为您剧情介绍:+style=\"display: none;\"&&</span>","数组":"<li>&&</li>","副标题":"pic-text text-right\">&&</span>","线路数组":"#playlist&&</a>","搜索数组":"col-md-6 col-sm-4 col-xs-3\">&&</li>","分类url":"http://www.kmxibanyayu.com/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"短剧$duanju#国产剧$guochanju#电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#解说$dianyingjieshuo"}}, {
-        "key": "新感觉",
+}, { "key": "可可观影", "name": "可可观影", "type":3,"api":"csp_XBPQ", "jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/xiaozhan/main/XBPQ.jar", "ext": {"简介":"小林子为您剧情介绍:+style=\"display: none;\"&&</span>","数组":"<li>&&</li>","副标题":"pic-text text-right\">&&</span>","线路数组":"#playlist&&</a>","搜索数组":"col-md-6 col-sm-4 col-xs-3\">&&</li>","分类url":"http://www.kmxibanyayu.com/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"短剧$duanju#国产剧$guochanju#电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#解说$dianyingjieshuo"}}, {
         "name": "新感觉┃TV4K",
         "type": 1,
         "api": "http://27.54.236.201/api.php/provide/vod/",
