@@ -1,76 +1,3 @@
-{
-    "wallpaper": "",
-    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/benteng4/xiaozhan/main/CustomSpider.jar",
-    "sites": [
-         {
-        "key": "可可观影",
-        "name": "可可观影",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/benteng4/xiaozhan/main/XBPQ.jar",
-        "ext": {
-            "简介": "小林子为您剧情介绍:+style=\"display: none;\"&&</span>",
-            "数组": "<li>&&</li>",
-            "副标题": "pic-text text-right\">&&</span>",
-            "线路数组": "#playlist&&</a>",
-            "搜索数组": "col-md-6 col-sm-4 col-xs-3\">&&</li>",
-            "分类url": "http://www.kmxibanyayu.com/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-            "分类": "短剧$duanju#国产剧$guochanju#电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#解说$dianyingjieshuo"
-        }
-    },
-        {
-            "key": "久亿视频",
-            "name": "💕久亿视频",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "api": "csp_XBPQ", 
-            "jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/benteng4/xiaozhan/main/XBPQ.jar",
-            "ext": {
-                "主页url": "https://www.91w2i.com/",
-                "搜索url": "https://www.91w2i.com/search/index.html?keyword={wd}",
-                "数组": "<div class=\"public-list-div public-list-bj\"&&</div>",
-                "图片": "data-src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"",
-                "简介": "class=\"text cor3\"&&</div>",
-                "线路数组": "class=\"swiper-slide\">&&</a[排序:优酷>高清测试线路>高清测试线路1>高清测试线路2>乐视>哔哩哔哩>腾讯>搜狐>爱奇艺>芒果]",
-                "线路标题": ">&nbsp;&&</a>",
-                "播放数组": "class=\"anthology-list-play&&</div>",
-                "播放链接": "href=\"&&\"",
-                "分类url": "https://www.91w2i.com/vod/list.html?page={catePg}&type_id={cateId}",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$42"
-            }
-        },
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         {
@@ -118,22 +45,6 @@
             "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
         }
     }, {
-        "key": "C影院",
-        "name": "💕C影院",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-            "简介": "<p class=\"col-pd\">&&</p>",
-            "跳转播放链接": "var player_*\"url\":\"&&\"",
-            "分类url": "https://www.c-tv6.cc/video/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}/",
-            "分类": "电影&连续剧&综艺&动漫&爽文短剧&伦理片",
-            "分类值": "dianying&lianxuju&zongyi&dongman&shuangwenduanju&lunlipian"
-        }
-    },  {
         "name": "新感觉┃TV4K",
         "type": 1,
         "api": "http://27.54.236.201/api.php/provide/vod/",
@@ -194,40 +105,7 @@
         "filterable": 1,
         "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%A4%A9%E9%BE%99%E5%BD%B1%E8%A7%86.json",
         "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar"
-    }, {
-        "key": "金鱼影视",
-        "name": "金鱼影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E9%87%91%E9%B1%BC%E5%BD%B1%E8%A7%86.json",
-        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar"
-    }, {
-        "key": "baipiaoys",
-        "name": "💯白嫖 ┃ 影视",
-        "type": 3,
-        "changeable": 1,
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "api": "csp_XBPQ",
-        "ext": {
-            "主页url": "https://www.baipiaoys.com:9092/",
-            "副标题": "pic-text text-right\">&&</b>",
-            "搜索模式": "1",
-            "搜索url": "https://www.baipiaoys.com:9092/search.html?wd={wd}",
-            "图片": "data-original=\"&&\"",
-            "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-            "影片类型": "<div class=\"module-info-tag\">&&立即播放",
-            "导演": "导演：&&</div>",
-            "主演": "主演：&&</div>",
-            "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
-            "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
-        },
-        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar"
-    }, {
+    },   {
         "key": "可可影视",
         "name": "可可有广💞",
         "type": 3,
