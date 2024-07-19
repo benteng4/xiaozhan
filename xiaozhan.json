@@ -29,7 +29,7 @@
   "name": "19麻豆",
   "type": 3,
   "api": "csp_XBPQ",
-  "jar": "./lib/XBPQ.jar",
+  "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/benteng4/xiaozhan/main/xyqxbpq.jar",
   "ext": {
       "站名": "19麻豆",
       "主页url": "https://19q.cc/",
