@@ -31,10 +31,10 @@
 
 {
             "key": "爱豆传媒",
-            "name": "??爱豆传媒",
+            "name": "爱豆传媒",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/benteng4/xiaozhan/main/xbpq.jar",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
             "ext": {
                 "主页url": "https://rourou.co/",
                 "直接播放": "1",
@@ -51,7 +51,7 @@
 
 {
             "key": "18j.tv",
-            "name": "??18j.tv",
+            "name": "18j.tv",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/benteng4/xiaozhan/main/xbpq.jar",
