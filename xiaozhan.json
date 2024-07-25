@@ -11,7 +11,14 @@
             "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman#纪录片$jilupian#爽剧$shuangju",
             "分类url": "https://www.jqqzx.cc/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html"
         }
-    }, {
+    },{
+  "name": "影猫",
+  "url": "http://ysm.tkbot.fun",
+  "class_name": "电影&电视剧&综艺&动漫&短剧&TV直播",
+  "class_url": "1&2&3&4&6&7",
+  "parse_url": ""
+},    
+        {
         "key": "XBPQ_XSmp3",
         "name": "随身相声┃XBPQ",
         "type": 3,
